@@ -1,0 +1,33 @@
+-Step 1 - Importing Libraries and Data
+-Step 2 - Basic Feature Eng. & Reference Model
+  -Step 2.1 - Basic Feature Eng. & One Hot Encoding
+  -Step 2.2 - Train-Test Split for Reference Model
+  -Step 2.3 - Reference Model
+  -Step 2.4 - Missing Value Imputation
+-Step 3 - Feature Engineering
+  -Step 3.1 - Multicollinearity Elimination
+  -Step 3.2 - Feature Extraction
+  -Step 3.3 - Scaling
+-Step 4 - Model Selection
+  -Step 4.1 - Train-Test Split
+  -Step 4.2 - Models
+-Step 5 - Dataset Selection
+  -Step 5.1 - Dataset_1 / Scaled & Encoded
+    -Step 5.1.1 - Dataset_1 / Normal Dataset (Normalized & Encoded)
+    -Step 5.1.2 - Dataset_1 / Normal Dataset (Standardized & Encoded)
+    -Step 5.1.3 - Dataset_1 / Normal Dataset (Not Scaled & Encoded)
+  -Step 5.2 - Dataset_2 / Featured Dataset (Scaled & Encoded & Featured)
+    -Step 5.2.1 - Dataset_2 / Featured Dataset (Normalized & Encoded & Featured)
+    -Step 5.2.2 - Dataset_2 / Featured Dataset (Standardized & Encoded & Featured)
+    -Step 5.2.3 - Dataset_2 / Featured Dataset (Not Scaled & Encoded & Featured)
+  -Step 5.3 - Dataset_3 / Transformed Dataset (Scaled & Encoded & Featured & Transformed)
+    -Step 5.3.1 - Dataset_3 / Logged Dataset (Scaled & Encoded & Featured & Logged)
+    -Step 5.3.2 - Dataset_3 / Reciprocal Dataset (Scaled & Encoded & Featured & Reciprocal)
+-Step 6 - Feature Selection
+  -Step 6.1 - Round 1 - Without Card Category
+  -Step 6.2 - Round 2 - Without Education Category
+  -Step 6.3 - Round 3 - Without Income Category
+  -Step 6.4 - Round 4 - Without all features below 1% of importance
+-Step 7 - Hyperparameter Tuning
+  -Step 7.1 - Hyperparameter Tuning
+  -Step 7.2 - Model Evaluation
