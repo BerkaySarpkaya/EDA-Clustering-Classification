@@ -1,0 +1,11 @@
+-Step 1 - Importing Libraries and Data
+-Step 2 - Dataset Overview
+  -Step 2.1 - Basic Overview
+  -Step 2.2 - Dropping and Indexing
+  -Step 2.3 - Missing and Duplicated Check
+-Step 3 - Exploratory Data Analysis
+  -Step 3.1 - Categorical Feature Distribution
+  -Step 3.2 - Numerical Feature Distribution
+  -Step 3.3 - Total Revolving Balance
+  -Step 3.4 - Age
+  -Step 3.5 - Correlations
