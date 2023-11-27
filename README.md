@@ -17,12 +17,13 @@ This repository is dedicated to conducting a thorough examination of a dataset r
 
 ## Objective
 
-The main aim of this case was to build a model that could accurately predict whether passengers were satisfied with their flight or not.
+This study has three main objectives:
 
-The side aims were:
+1) Conducting an in-depth exploratory analysis on the dataset with the goals of gaining a deeper understanding of the domain, unraveling the factors leading to 'Churn,' and honing skills in data visualization.
 
-- Comparison of the performance of multiple data sets scaled in different ways including: Raw, Normalization, Standardization and Robust Scaling
-- Comparison of different user-ready scikit-learn models and an ANN model created with Tensorflow-Keras
+2) Developing a highly effective classification model involves leveraging the strength of numerous model comparisons and an iterative process of enhancing metrics through adjustments in feature extraction and selection.
+
+3) Conducting customer segmentation from various perspectives.
 
 ## Requirements
 
@@ -33,9 +34,7 @@ The side aims were:
 - Seaborn Version: 0.13.0
 - Tensorflow Version: 2.13.0
 - Scikit-Learn Version: 1.3.1
-- pmdarima Version: 2.0.4
-- statsmodels Version: 0.14.0
-- Prophet Version: 1.1.4
+- LightGBM Version: XXXXXXXXX
 
 The overview of the code can be seen on the following link <a href="https://github.com/BerkaySarpkaya/Classification-Prediction/blob/main/WBS%20of%20the%20Code.txt"> Overview of the code</a>
 ## Dataset
