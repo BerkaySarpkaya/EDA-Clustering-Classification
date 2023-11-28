@@ -10,6 +10,7 @@ This repository is dedicated to conducting a thorough examination of a dataset r
 * [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 * [Feature Engineering and Scaling](#Feature-Engineering-and-Scaling)
 * [Model Selection and Evaluation for Classification](#Model-Selection-and-Evaluation-for-Classification)
+* [Segmentation](#Segmentation)
 * [Inferences](#Inferences)
 * [Further Work and Improvements](#Further-Work-and-Improvements)
 * [License](#License)
@@ -94,11 +95,11 @@ Main strategy to see the potential of increasing the metrics was first creating 
 
 <img src="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/Images/Test%20Set.png" alt="Figure 4">
 
-<em>Figure 2. Confusion matrix of the Test Set </em>
+<em>Figure 4. Confusion matrix of the Test Set </em>
 
 <img src="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/Images/Validation%20Set.png" alt="Figure 5">
 
-<em>Figure 2. Confusion matrix of the Validation Set</em>
+<em>Figure 5. Confusion matrix of the Validation Set</em>
 
-
+## Segmentation
 
