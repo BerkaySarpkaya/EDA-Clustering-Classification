@@ -34,7 +34,7 @@ This study has three main objectives:
 - Matplotlib Version: 3.8.0
 - Seaborn Version: 0.13.0
 - Scikit-Learn Version: 1.3.1
-- LightGBM Version: XXXXXXXXX
+- LightGBM Version: 4.1.0
 
 The overview of the codes can be seen on the following link <a href="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/tree/main/Overviews"> Overview of the code files</a>
 
