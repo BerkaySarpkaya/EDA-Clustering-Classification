@@ -103,3 +103,19 @@ Main strategy to see the potential of increasing the metrics was first creating 
 
 ## Segmentation
 
+## Inferences
+
+- In the all cases of different scaling methods X different models: Boosting Decision Tree methods were always the winners with the lead of catboost and lightgbm
+- Top 5 models were always the Catboost, LightGBM, XGBoost, Extra Trees and Random Forest. Their performance almost did not change according to the scaling method as expected.
+- Among the scaling methods, only no scaled (raw) data changed the performance of NN model dramatically with a possible reason of ineffective gradient descent process caused by oscilating with large moves. 
+
+## Further Work and Improvements
+
+- Dimenasionality reduction applied dataset was only performed with normalization method. It could have been also combined with other methods to improve the performance.
+- A more comprehensive hyperparameter tune process can be applied.
+- According to the final confusion matrix, misclassified data can be examined to understand which type of feature combination observations lead to misclassification and the training data can be feed with them more to evolve the model.
+- Hyperparameter tuning could be applied to multiple models as the default accuracies were too close to each other.
+
+## License
+
+This project is licensed under the MIT License. See the <a href="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/LICENSE"> LICENCE</a> file for details.
