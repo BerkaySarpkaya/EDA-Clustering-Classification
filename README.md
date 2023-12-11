@@ -11,7 +11,6 @@ This repository is dedicated to conducting a thorough examination of a dataset r
 * [Feature Engineering and Scaling](#Feature-Engineering-and-Scaling)
 * [Model Selection and Evaluation for Classification](#Model-Selection-and-Evaluation-for-Classification)
 * [Segmentation](#Segmentation)
-* [Inferences](#Inferences)
 * [Further Work and Improvements](#Further-Work-and-Improvements)
 * [License](#License)
 <!--te-->
@@ -103,11 +102,13 @@ Main strategy to see the potential of increasing the metrics was first creating 
 
 ## Segmentation
 
-## Inferences
+### Strategy
 
-- In the all cases of different scaling methods X different models: Boosting Decision Tree methods were always the winners with the lead of catboost and lightgbm
-- Top 5 models were always the Catboost, LightGBM, XGBoost, Extra Trees and Random Forest. Their performance almost did not change according to the scaling method as expected.
-- Among the scaling methods, only no scaled (raw) data changed the performance of NN model dramatically with a possible reason of ineffective gradient descent process caused by oscilating with large moves. 
+Segmentation held on the dataset twice. One to see the segments according to their "Spending Behaviors", and the other one was performed to see the clusters according to the demographic segmentation. According to the sub dataset of purpose, different data preprocessing was conducted including principal component analysis (PCA). Then the "Elbow Method" was used to understand the ideal cluster number.
+
+### Evaluation
+
+By visualizing the feature distributions with respect to segments, insights were gained. The detailed boundries between clusters can be seen inside the notebook of Segmentation. 
 
 ## Further Work and Improvements
 
