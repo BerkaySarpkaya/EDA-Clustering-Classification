@@ -106,11 +106,21 @@ Main strategy to see the potential of increasing the metrics was first creating 
 
 Segmentation held on the dataset twice. One to see the segments according to their "Spending Behavior", and the other one was performed to see the clusters according to the demographic segmentation. According to the sub dataset of purpose, different data preprocessing was conducted including principal component analysis (PCA). Then the "Elbow Method" was used to understand the ideal cluster number.
 
+<img src="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/Images/Elbow-Method%20of%20Spending%20Behavior%20Clustering.PNG" alt="Figure 6">
 
+<em>Figure 6. Elbow Methof for Spending Behavior Clusters</em>
+
+<img src="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/Images/Clusters%20of%20Spending%20Behavior.PNG" alt="Figure 7">
+
+<em>Figure 7. 3D Representation of the 4 Clusters of Spending Behavior</em>
 
 ### Evaluation
 
 By visualizing the feature distributions with respect to segments, insights were gained. The detailed boundries between clusters can be seen inside the notebook of Segmentation. 
+
+<img src="https://github.com/BerkaySarpkaya/EDA-Clustering-Classification/blob/main/Images/Age%20wrt%20%20Demographic%20Segments.png" alt="Figure 8">
+
+<em>Figure 8. Age Distribution with respect to Demographic Clusters</em>
 
 ## Further Work and Improvements
 
