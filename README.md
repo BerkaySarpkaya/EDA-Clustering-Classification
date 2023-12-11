@@ -104,7 +104,9 @@ Main strategy to see the potential of increasing the metrics was first creating 
 
 ### Strategy
 
-Segmentation held on the dataset twice. One to see the segments according to their "Spending Behaviors", and the other one was performed to see the clusters according to the demographic segmentation. According to the sub dataset of purpose, different data preprocessing was conducted including principal component analysis (PCA). Then the "Elbow Method" was used to understand the ideal cluster number.
+Segmentation held on the dataset twice. One to see the segments according to their "Spending Behavior", and the other one was performed to see the clusters according to the demographic segmentation. According to the sub dataset of purpose, different data preprocessing was conducted including principal component analysis (PCA). Then the "Elbow Method" was used to understand the ideal cluster number.
+
+
 
 ### Evaluation
 
@@ -112,10 +114,11 @@ By visualizing the feature distributions with respect to segments, insights were
 
 ## Further Work and Improvements
 
-- Dimenasionality reduction applied dataset was only performed with normalization method. It could have been also combined with other methods to improve the performance.
+- On the classification model, PCA was not performed as another option of dataset-feature-model combination.
+- More creative (or obvious that I have missed) features may be extracted with the help of practice and domain knowledge.
+- More than one model might be underwent the hyperparameter tuning process.
 - A more comprehensive hyperparameter tune process can be applied.
-- According to the final confusion matrix, misclassified data can be examined to understand which type of feature combination observations lead to misclassification and the training data can be feed with them more to evolve the model.
-- Hyperparameter tuning could be applied to multiple models as the default accuracies were too close to each other.
+- Detailed visualization and cluster report were not prapared for "Spending Behavior" segmentation. They may be performed.
 
 ## License
 
